@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="error_list_item_height">20dp</dimen>
+    <dimen name="margin_medium">5dp</dimen>
+    <dimen name="margin_small">2dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="button_hight_large">58dp</dimen>
+    <dimen name="button_width_large">120dp</dimen>
+    <dimen name="button_width_medium">90dp</dimen>
+    <dimen name="button_hight_medium">51dp</dimen>
+    <dimen name="QR_image_medium">200dp</dimen>
+    <dimen name="min_hight_text">32dp</dimen>
+    <dimen name="button_width_xlarge">150dp</dimen>
+    <dimen name="button_wedth_small">60dp</dimen>
+    <dimen name="button_hight_small">48dp</dimen>
+    <dimen name="list_item_hight_medium">60dp</dimen>
+
+
+</resources>

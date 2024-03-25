@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerCreationActivity">
+
+    <TextView
+        android:id="@+id/create_account_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_customer"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/create_account_full_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_account_view_title">
+
+        <TextView
+            android:id="@+id/create_account_full_name_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:minHeight="38dp"
+            android:text="@string/full_name_label"
+            />
+        <EditText
+            android:id="@+id/create_account_full_name_input"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:hint="@string/full_name_hint"
+            android:inputType="textPersonName"
+            android:minHeight="38dp"
+            android:autofillHints="" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/create_account_personal_number_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_account_full_name_layout">
+        <TextView
+            android:id="@+id/create_account_personal_number_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:minHeight="38dp"
+            android:text="@string/personal_number_label"
+            />
+
+        <EditText
+            android:id="@+id/create_account_personal_number_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:minHeight="38dp"
+            android:layout_margin="10dp"
+            android:hint="@string/personal_number_hint"
+            android:inputType="number"
+            android:autofillHints="personalNumber"
+            android:textColorHint="#757575" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/create_account_phone_number_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_account_personal_number_layout">
+
+        <TextView
+            android:id="@+id/create_account_phone_number_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:minHeight="38dp"
+            android:text="@string/phone_number_label" />
+
+        <EditText
+            android:id="@+id/create_account_phone_number_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:minHeight="38dp"
+            android:layout_margin="10dp"
+            android:hint="@string/phone_number_hint"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:textColorHint="#757575" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="@dimen/button_width_xlarge"
+        android:layout_height="@dimen/button_hight_large"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_view_background"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@android:color/transparent"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

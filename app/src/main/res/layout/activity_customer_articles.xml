@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:id="@+id/customer_articles_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/customer_articles_full_name_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/full_name_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/customer_articles_balance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="@string/personal_number_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/add_new_article"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/customer_articles_buttons_layout"
+            android:id="@+id/fragment_container" />
+
+        <LinearLayout
+            android:id="@+id/customer_articles_buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_hight_small"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_small"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/customer_articles_title_layout">
+
+
+            <Button
+                style="@android:style/ButtonBar"
+                android:id="@+id/unsold_products_button"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_gravity="center_horizontal"
+                android:queryBackground="@android:color/transparent"
+                android:text="@string/articles_for_sale" />
+            <Button
+                style="@android:style/ButtonBar"
+                android:id="@+id/sold_products_button"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_gravity="center_horizontal"
+                android:queryBackground="@android:color/transparent"
+                android:text="@string/sold_articles" />
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/add_new_article"
+                android:layout_width="@dimen/button_width_medium"
+                android:layout_height="@dimen/button_hight_medium"
+                android:layout_gravity="center_horizontal"
+                android:iconifiedByDefault="false"
+                android:queryBackground="@android:color/transparent"
+                android:background="@drawable/search_view_background"
+                android:text="@string/add_label"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

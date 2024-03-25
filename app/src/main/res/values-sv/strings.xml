@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kita Market</string>
+    <string name="add_customer_label">Lägg till kund</string>
+    <string name="customer_articles">Kund  artiklar</string>
+    <string name="create_label">Skapa</string>
+    <string name="done_label">Klar</string>
+    <string name="delete_label">Ta bort</string>
+    <string name="customer_information">Kund information</string>
+    <string name="full_name_label">Full namn:</string>
+    <string name="article_price_hint">Sätt pris</string>
+    <string name="register">Registrera</string>
+    <string name="personal_number_label">Person nummer:</string>
+    <string name="price_label">Pris:</string>
+    <string name="balance">Balans:</string>
+    <string name="phone_number_label">Telefon nummer:</string>
+    <string name="article_name_hint">Skriv in varonamn:</string>
+    <string name="n">Anteckning:</string>
+    <string name="full_name_hint">Skriv in ditt för- och efternamn</string>
+    <string name="personal_number_hint">Använd 12-siffrigt formulär</string>
+    <string name="phone_number_hint">Skriv in fullständigt telefonnummer som börjar med 0</string>
+    <string name="create_new_article">Lägg till en vara</string>
+    <string name="add_label">Lägg till</string>
+    <string name="add_more_button">Lägga till mer</string>
+    <string name="sold_articles" translatable="false">Sålda artiklar</string>
+    <string name="articles_for_sale" translatable="false">Till salu</string>
+    <string name="create_new_customer">Skapa ny kund</string>
+    <string name="error_label" translatable="false">Fel</string>
+    <string name="alarm_ok" translatable="false">Okej</string>
+    <string name="update_label" translatable="false">Uppdatera</string>
+    <string name="alarm_message" translatable="false">Vill du verkligen ta bort den här artikel?</string>
+    <string name="alarm_yes" translatable="false">Ja</string>
+    <string name="alarm_no" translatable="false">Nej</string>
+    <string name="search_hint" translatable="false">Ange kundens personnummer</string>
+    <string name="search_article_hint" translatable="false">Ange artikel-id</string>
+    <string name="new_sell_label" translatable="false">"Ny försäljning "</string>
+    <string name="total_label" translatable="false">Totalt</string>
+    <string name="sell_label" translatable="false">klar</string>
+    <string name="wrong_personal_number_length" translatable="false">Personnummer måste vara exakt</string>
+    <string name="chars_lable" translatable="false">tecken</string>
+    <string name="personal_number_only_digits_requerd" translatable="false">Personnummer få endast innehålla siffror</string>
+    <string name="custome_not_exist">Kunden är inte registrerad</string>
+    <string name="database_error" translatable="false">Databas fel</string>
+    <string name="custome_exist">Kunden redan finns</string>
+    <string name="created_successfully" translatable="false">Skapat</string>
+    <string name="sell_error_message_label" translatable="false">Försäljningen inte klar, vissa artiklar har redan lagts till</string>
+    <string name="no_balance_added" translatable="false">Sista artikel blev markerad som såld, men priset lades inte till kundens balans</string>
+    <string name="sold_article_error" translatable="false">Sista artikel är redan såld</string>
+    <string name="article_not_exist" translatable="false">Artikeln finns ej</string>
+    <string name="successed" translatable="false">Klart!</string>
+    <string name="valid">giltigt</string>
+    <string name="join_word_and">och</string>
+    <string name="short_phone_number">"Mobilnummber måste vara minst "</string>
+    <string name="digits">siffror</string>
+    <string name="long_phone_number">"Mobilnummer får inte vara större än "</string>
+    <string name="digits_only_required">Endast siffror är tillåtna</string>
+    <string name="short_full_name">"Fullnamnet måste vara minst "</string>
+    <string name="long_full_name">Fullnamnet får inte vara större än</string>
+    <string name="short_Article_name">"Artikel namn få minst vara "</string>
+    <string name="long_Article_name" translatable="false">Artikel namn få inte vara större än</string>
+    <string name="long_prics">Priset måste vara max</string>
+    <string name="long_note">Anteckningen måste vara max</string>
+    <string name="article_id_label">Artikel id</string>
+    <string name="QR_image_description">QR kod bild</string>
+    <string name="empty_data_error">Ange data</string>
+    <string name="QR_code_createing_error">QR koden genererades inte. Använd artikel id istället</string>
+    <string name="QR_code_reading_error" translatable="false">QR koden lästes ej, använd artikel id istället</string>
+    <string name="scan_label" translatable="false">Skanna QR koden</string>
+    <string name="camera_permission_required">Tillgång till kamera krävs</string>
+    <string name="article_exist">Artikeln har redan lagts till listan</string>
+    <string name="customer_info_label">Kund info</string>
+    <string name="name_label">Namn</string>
+    <string name="time_stamp_label">Tid</string>
+    <string name="owner_label">ägaren</string>
+    <string name="sold_by_label">Såld av</string>
+    <string name="id_label">id</string>
+    <string name="zero_balance" translatable="false">0.0</string>
+    <string name="article_Id_required">Artikel id krävs</string>
+    <string name="note_label">Anteckning</string>
+    <string name="article_name_label">Arikel namn</string>
+    <string name="delete_alarm_title" translatable="false">Varning</string>
+    <string name="price_required">Pris behövs</string>
+    <string name="QR_code_dissmatch_id_length">QR code innnehåller nåt som intev matchar id lengd krav. Det kan vara på grund av QR till hör inte den här affären</string>
+
+</resources>
+

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "176527998453",
+    "project_id": "kitamarket-44155",
+    "storage_bucket": "kitamarket-44155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176527998453:android:79342a5c235cc09e5874bc",
+        "android_client_info": {
+          "package_name": "com.todoapp.kitamarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176527998453-4rgjr6gtopgkko0gfiuh4iibk91739ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.todoapp.kitamarket",
+            "certificate_hash": "f8cd1f649eb2e6e48000b2bec71c09319fc4eb5a"
+          }
+        },
+        {
+          "client_id": "176527998453-p5thhiprjnqj94uljsoi6milt55gr5cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVX4dkmkh5l7g1taUNNGbfYOuTom-0tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176527998453-p5thhiprjnqj94uljsoi6milt55gr5cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

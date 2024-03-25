@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/error_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_margin="@dimen/margin_medium" />
+    <TextView
+        android:id="@+id/error_message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_margin="@dimen/margin_medium" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/submited_articles_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium" />
+<Button
+    android:id="@+id/error_list_ok_button"
+    android:layout_width="@dimen/button_wedth_small"
+    android:layout_height="@dimen/button_hight_small"
+    android:layout_margin="@dimen/margin_medium"
+    android:text="@string/alarm_ok"/>
+
+</LinearLayout>
